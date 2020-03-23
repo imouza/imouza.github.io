@@ -32,7 +32,7 @@ class Musics {
             },{
                 id: 2,
                 title: 'Just Because!',
-                singer: '王诗安',
+                singer: 'やなぎなぎ',
                 songUrl: '/music/song/やなぎなぎ - Just Because!.flac',
                 imageUrl: '/music/img/Just Because!.webp'
             }
