@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://imouza.github.io/photography/</loc>
+        <lastmod>2020-06-11T19:21:36.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://imouza.github.io/404.html</loc>
         <lastmod>2020-03-18T08:42:59.467Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://imouza.github.io/about/</loc>
         <lastmod>2020-03-18T08:35:16.971Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://imouza.github.io/photography/</loc>
-        <lastmod>2020-03-18T08:31:24.266Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
