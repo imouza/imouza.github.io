@@ -269,13 +269,11 @@
                     LK出題規範出題要求
 符合題目規範的要求。
 確保提供的答案正確。
-留下出题人联系方式：QQ或者邮箱
+完整填寫出題格式.csv并重命名為[你的QQ號/你的郵箱（任選其一）].csv。（例：1234567890.csv 或 example@gmail.com.csv）
 
 題目規範格式規範文本相關
-使用標準台灣正體
-標點使用全形符號，使用規範依據《重訂標點符號手冊》修訂版以及維基百科:格式手冊/標點符號。
-問號統一使用全形問號（U+FF1F），句號使用中式句號（U+3002），圓括弧使用全形括弧，引號使用「」『』。
-引號分單引號「」及雙引號『』，通常先用單引號......
+使用標準台灣正體。 (如對台灣正體不熟悉請使用大陸簡體而非輸入法自帶的繁體中文)
+標點使用全形符號，使用規範依據《重訂標點符號手冊》修......
                 </div>
             </a>
             
@@ -284,6 +282,8 @@
                     2020-03-23
                 </p>
                 <div class="tags">
+                    
+                      <a href="/tags/#勇者测试" title="勇者测试">勇者测试</a>
                     
                 </div>
             
@@ -464,6 +464,8 @@ onedrive链接
     <!-- no hr -->
     <h5><a href="/tags/">FEATURED TAGS</a></h5>
     <div class="tags">
+        
+            
         
             
         
@@ -754,7 +756,7 @@ onedrive链接
         
 
         
-            <script type="text/javascript" src="/js/mouse-click.js" content='[&#34;すう&#34;,&#34;にゃ&#34;,&#34;お疲れ&#34;]' color='[&#34;rgb(255, 0, 102)&#34; ,&#34;rgb(255, 153, 204)&#34; ,&#34;rgb(255, 51, 204)&#34;]'></script>
+            <script type="text/javascript" src="/js/mouse-click.js" content='[&quot;すう&quot;,&quot;にゃ&quot;,&quot;お疲れ&quot;]' color='[&quot;rgb(255, 0, 102)&quot; ,&quot;rgb(255, 153, 204)&quot; ,&quot;rgb(255, 51, 204)&quot;]'></script>
         
 
         <!-- background effects end -->
@@ -764,6 +766,22 @@ onedrive链接
     
         <script src="/js/ribbonDynamic.js"></script>
     
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 </body>
 
 </html>
